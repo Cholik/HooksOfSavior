@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="CameraOfSavior/CameraOfSavior.cbp" />
+		<Project filename="DisableEncryption/DisableEncryption.cbp" />
+		<Project filename="getClientPacketBuilders/getClientPacketBuilders.cbp" />
+		<Project filename="HooksOfSavior/HooksOfSavior.cbp" />
+		<Project filename="LuaSavior/LuaSavior.cbp" />
+		<Project filename="PacketLogger/PacketLogger.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

@@ -1,0 +1,1 @@
+dllinject.exe --lib "%CD%\LuaSavior.dll" --procname "Client_tos.exe" --dbgpriv --eject
