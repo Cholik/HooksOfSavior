@@ -23,7 +23,7 @@ char *loggerPath = NULL;
 HANDLE mutex;
 FILE *defaultOutput = NULL;
 FILE *handlersOutput = NULL;
-bool enablePacketEncryption = false;
+bool enablePacketEncryption = true;
 char *sessionDate = NULL;
 
 /** =================== Utils ================= */

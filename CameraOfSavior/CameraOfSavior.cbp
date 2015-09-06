@@ -43,10 +43,16 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../Console/Console.h" />
+		<Unit filename="../FunctionOffset.h" />
 		<Unit filename="../HookEngine/HookEngine.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="../HookEngine/HookEngine.h" />
+		<Unit filename="../Keyboard/KeyState.h" />
+		<Unit filename="../Keyboard/Keyboard.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../Keyboard/Keyboard.h" />
 		<Unit filename="../Utils/Utils.c">
 			<Option compilerVar="CC" />
 		</Unit>

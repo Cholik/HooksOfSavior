@@ -36,6 +36,12 @@ D3DXMATRIX original = {
 int __thiscall imcd3d9_CDevice__SetViewTM (int this, D3DXMATRIX *view)
 {
     // 55 8B EC 53 8B D9 83 7B 08 00 56 57
+    static bool init = false;
+
+    if (!init) {
+        memcpy (&original, view, sizeof (original));
+        init = true;
+    }
 
 	int (__thiscall *hooked) (int this, D3DXMATRIX *view) =
 		(typeof(hooked)) HookEngine_get_original_function ((ULONG_PTR) imcd3d9_CDevice__SetViewTM);
